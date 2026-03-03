@@ -52,7 +52,6 @@ function ComputerTurn() {
 
         let result = decide(playerChoice, computerChoice);
         resultText.textContent = result;
-        updateScore(result);
 
     }, 3000);
 }
