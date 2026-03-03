@@ -1,0 +1,44 @@
+<!--
+Name: Isaac Euceda
+Date: 03/02/2026
+CSC 372-01
+The html file for the Rock Paper Scissors game. It includes sections for the player's choices, the computer's choice, the outcome of the game, and a score section for tracking wins, losses, and ties. The JavaScript file will handle the game logic and interactions.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Player -->
+    <section id="player">
+        <h2>Your Throw</h2>
+        <div class="choices">
+            <img src="images/rock.png" alt="Rock" id="rock">
+            <img src="images/paper.png" alt="Paper" id="paper">
+            <img src="images/scissors.png" alt="Scissors" id="scissors">
+        </div>
+    </section>
+
+    <!-- Computer -->
+    <section id="computer">
+        <h2>Computer Throw</h2>
+        <img src="images/question-mark.png" alt="Computer Choice" id="computer-image">
+    </section>
+
+    <!-- Outcome -->
+    <section id="outcome">
+        <h2 id="result-text">Your Turn</h2>
+        <button id="play-again">Play Again</button>
+    </section>
+    <script src="game.js"></script>
+</body>
+
+</html>
