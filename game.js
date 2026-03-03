@@ -76,7 +76,7 @@ function decide(player, computer) {
 
 function resetGame() {
     resultText.textContent = "Make your move!";
-    computerImage.src = "images/question-mark.png";
+    computerImage.src = "images/question-mark.PNG";
 
     document.querySelectorAll(".choices img").forEach(img => img.classList.remove("selected"));
 }
