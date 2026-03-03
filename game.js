@@ -40,7 +40,7 @@ function ComputerTurn() {
 
     let interval = setInterval(() => {
         let random = Math.floor(Math.random() * 3);
-        computerImage.src = "images/" + choices[random] + ".png";
+        computerImage.src = "images/" + choices[random] + ".PNG";
     }, 500);
 
     setTimeout(() => {
@@ -48,7 +48,7 @@ function ComputerTurn() {
 
         let final = Math.floor(Math.random() * 3);
         let computerChoice = choices[final];
-        computerImage.src = "images/" + computerChoice + ".png";
+        computerImage.src = "images/" + computerChoice + ".PNG";
 
         let result = decide(playerChoice, computerChoice);
         resultText.textContent = result;
